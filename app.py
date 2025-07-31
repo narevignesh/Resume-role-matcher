@@ -45,7 +45,7 @@ if uploaded_file:
         # Sort and get top 2 roles
         top_roles = sorted(role_score_dict.items(), key=lambda x: x[1], reverse=True)[:2]
 
-        # 🎯 Show Top 2 Matching Roles (without score)
+        # Show Top 2 Matching Roles (without score)
         st.subheader("🔍 Top ATS-Matching Roles")
         cols = st.columns(len(top_roles))
         for idx, (role, _) in enumerate(top_roles):
