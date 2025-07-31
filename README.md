@@ -21,7 +21,6 @@ This tool helps job seekers optimize their resumes for ATS filters and improve t
 
 ### 🖥️ Web App & UI:
 - **Streamlit** – Fast and interactive frontend framework for Python
-- **Icons8** – Visual icons used in the UI
 
 ---
 
